@@ -1,0 +1,126 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1\v4.0_16.1.4.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <Version>16.1</Version>
+///   <Resources>
+///     <Resource Name="XtraReportSerialization.Report1">
+/// zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAABAAAAAAAAAFBBRFBBRFBb0c0TAAAAAP8AAAA+cgBpAGMAaABUAGUAeAB0ADEALgBTAGUAcgBpAGEAbABpAHoAYQBiAGwAZQBSAHQAZgBTAHQAcgBpAG4AZwAAAAAAAagEZXdCY0FISUFkQUJtQURFQVhBQmhBRzRBY3dCcEFHTUFjQUJuQURFQU1nQTFBRElBRFFBS0FIc0FEUUFLQUZ3QVpnQnZBRzRBZEFCMEFHSUFiQUFOQUFvQWV3QmNBR1lBTUFBZ0FGUUFhUUJ0QUdVQWN3QWdB
+/// RTRBWlFCM0FDQUFVZ0J2QUcwQVlRQnVBRHNBZlFBTkFBb0FmUUFOQUFvQWV3QU5BQW9BWEFCakFHOEFiQUJ2QUhJQWRBQmlBR3dBRFFBS0FEc0FEUUFLQUZ3QWNnQmxBR1FBTUFCY0FHY0FjZ0JsQUdVQWJnQXdBRndBWWdCc0FIVUFaUUF5QURVQU5RQTdBQTBBQ2dCY0FISUFaUUJrQURBQVhBQm5BSElBWlFCbEFHNEFNQUJjQUdJQWJBQjFBR1VBTUFBN0FBMEFDZ0I5QUEwQUNnQmNBRzRBYndCMUFHa0FZd0J2QUcwQWNBQmhBSFFBWEFCekFIQUFiQUI1QUhRQWR3QnVBR2tBYmdCbEFGd0FhQUIwQUcwQVlRQjFBSFFBY3dCd0FIc0FYQUJ6QUdVQVl3QjBBR1FBWEFCd0FHRUFjZ0JrQUZ3QWNBQnNBR0VBYVFCdUFGd0FjUUJzQUhzQVhBQm1BSE1BTWdBd0FGd0FZd0Jt
+/// QURJQUlBQnlBR2tBWXdCb0FGUUFaUUI0QUhRQU1RQjlBRndBY0FCaEFISUFmUUFOQUFvQWZRQU5BQW9B</Resource>
+///   </Resources>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class Report1 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.XRRichText richText1;
+        private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
+        private DevExpress.XtraReports.UI.XRLine line2;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private System.Resources.ResourceManager _resources;
+        private string _resourceString;
+        public Report1() {
+            this._resourceString = DevExpress.XtraReports.Serialization.XRResourceManager.GetResourceFor("XtraReportSerialization.Report1");
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(this._resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.richText1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.line2 = new DevExpress.XtraReports.UI.XRLine();
+            ((System.ComponentModel.ISupportInitialize)(this.richText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // BottomMargin
+            // 
+            this.BottomMargin.Dpi = 100F;
+            this.BottomMargin.HeightF = 18.75F;
+            this.BottomMargin.Name = "BottomMargin";
+            // 
+            // label1
+            // 
+            this.label1.Dpi = 100F;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(18.75F, 70.74999F);
+            this.label1.Multiline = true;
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(605.2083F, 57.08335F);
+            this.label1.StylePriority.UseFont = false;
+            this.label1.Text = "Kwik Kian Gie\r\nSchool Of Business";
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.richText1});
+            this.Detail.Dpi = 100F;
+            this.Detail.HeightF = 132.2917F;
+            this.Detail.Name = "Detail";
+            // 
+            // TopMargin
+            // 
+            this.TopMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.line2,
+                        this.line1,
+                        this.label1});
+            this.TopMargin.Dpi = 100F;
+            this.TopMargin.HeightF = 137.8333F;
+            this.TopMargin.Name = "TopMargin";
+            // 
+            // richText1
+            // 
+            this.richText1.Dpi = 100F;
+            this.richText1.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.richText1.LocationFloat = new DevExpress.Utils.PointFloat(18.75F, 0F);
+            this.richText1.Name = "richText1";
+            this.richText1.SerializableRtfString = resources.GetString("richText1.SerializableRtfString");
+            this.richText1.SizeF = new System.Drawing.SizeF(605.2083F, 84.79166F);
+            // 
+            // line1
+            // 
+            this.line1.Dpi = 100F;
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(18.75F, 68.74999F);
+            this.line1.Name = "line1";
+            this.line1.SizeF = new System.Drawing.SizeF(592.7083F, 2F);
+            // 
+            // line2
+            // 
+            this.line2.Dpi = 100F;
+            this.line2.LocationFloat = new DevExpress.Utils.PointFloat(18.75F, 127.8333F);
+            this.line2.Name = "line2";
+            this.line2.SizeF = new System.Drawing.SizeF(592.7083F, 2F);
+            // 
+            // Report1
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.TopMargin,
+                        this.Detail,
+                        this.BottomMargin});
+            this.Dpi = 100F;
+            this.Margins = new System.Drawing.Printing.Margins(100, 100, 138, 19);
+            this.Name = "Report1";
+            this.PageHeight = 550;
+            this.PageWidth = 850;
+            this.PaperKind = System.Drawing.Printing.PaperKind.Custom;
+            this.ShowPrintMarginsWarning = false;
+            this.Version = "16.1";
+            ((System.ComponentModel.ISupportInitialize)(this.richText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

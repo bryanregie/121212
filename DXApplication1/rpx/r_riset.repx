@@ -1,0 +1,91 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v16.1\v4.0_16.1.4.0__b88d1754d700e49a\DevExpress.XtraReports.v16.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <Version>16.1</Version>
+///   <Resources>
+///     <Resource Name="XtraReportSerialization.Report2">
+/// zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAABAAAAAAAAAFBBRFBBRFDZ6/FlAAAAAP8AAAA+cgBpAGMAaABUAGUAeAB0ADMALgBTAGUAcgBpAGEAbABpAHoAYQBiAGwAZQBSAHQAZgBTAHQAcgBpAG4AZwAAAAAAAagEZXdCY0FISUFkQUJtQURFQVhBQmhBRzRBY3dCcEFHTUFjQUJuQURFQU1nQTFBRElBRFFBS0FIc0FEUUFLQUZ3QVpnQnZBRzRBZEFCMEFHSUFiQUFOQUFvQWV3QmNBR1lBTUFBZ0FGUUFhUUJ0QUdVQWN3QWdB
+/// RTRBWlFCM0FDQUFVZ0J2QUcwQVlRQnVBRHNBZlFBTkFBb0FmUUFOQUFvQWV3QU5BQW9BWEFCakFHOEFiQUJ2QUhJQWRBQmlBR3dBRFFBS0FEc0FEUUFLQUZ3QWNnQmxBR1FBTUFCY0FHY0FjZ0JsQUdVQWJnQXdBRndBWWdCc0FIVUFaUUF5QURVQU5RQTdBQTBBQ2dCY0FISUFaUUJrQURBQVhBQm5BSElBWlFCbEFHNEFNQUJjQUdJQWJBQjFBR1VBTUFBN0FBMEFDZ0I5QUEwQUNnQmNBRzRBYndCMUFHa0FZd0J2QUcwQWNBQmhBSFFBWEFCekFIQUFiQUI1QUhRQWR3QnVBR2tBYmdCbEFGd0FhQUIwQUcwQVlRQjFBSFFBY3dCd0FIc0FYQUJ6QUdVQVl3QjBBR1FBWEFCd0FHRUFjZ0JrQUZ3QWNBQnNBR0VBYVFCdUFGd0FjUUJzQUhzQVhBQm1BSE1BTWdBd0FGd0FZd0Jt
+/// QURJQUlBQnlBR2tBWXdCb0FGUUFaUUI0QUhRQU13QjlBRndBY0FCaEFISUFmUUFOQUFvQWZRQU5BQW9B</Resource>
+///   </Resources>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class Report2 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.XRRichText richText3;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
+        private System.Resources.ResourceManager _resources;
+        private string _resourceString;
+        public Report2() {
+            this._resourceString = DevExpress.XtraReports.Serialization.XRResourceManager.GetResourceFor("XtraReportSerialization.Report2");
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(this._resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.richText3 = new DevExpress.XtraReports.UI.XRRichText();
+            this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            ((System.ComponentModel.ISupportInitialize)(this.richText3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // richText3
+            // 
+            this.richText3.Dpi = 100F;
+            this.richText3.Font = new System.Drawing.Font("Times New Roman", 9.75F);
+            this.richText3.LocationFloat = new DevExpress.Utils.PointFloat(102.0834F, 100F);
+            this.richText3.Name = "richText3";
+            this.richText3.SerializableRtfString = resources.GetString("richText3.SerializableRtfString");
+            this.richText3.SizeF = new System.Drawing.SizeF(678.7501F, 440F);
+            // 
+            // BottomMargin
+            // 
+            this.BottomMargin.Dpi = 100F;
+            this.BottomMargin.HeightF = 10F;
+            this.BottomMargin.Name = "BottomMargin";
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.richText3});
+            this.Detail.Dpi = 100F;
+            this.Detail.HeightF = 565.625F;
+            this.Detail.Name = "Detail";
+            // 
+            // TopMargin
+            // 
+            this.TopMargin.Dpi = 100F;
+            this.TopMargin.HeightF = 10F;
+            this.TopMargin.Name = "TopMargin";
+            // 
+            // Report2
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.TopMargin,
+                        this.Detail,
+                        this.BottomMargin});
+            this.Dpi = 100F;
+            this.Margins = new System.Drawing.Printing.Margins(10, 10, 10, 10);
+            this.Name = "Report2";
+            this.PageHeight = 1100;
+            this.PageWidth = 850;
+            this.ShowPrintMarginsWarning = false;
+            this.SnapGridSize = 5F;
+            this.SnappingMode = DevExpress.XtraReports.UI.SnappingMode.SnapToGrid;
+            this.Version = "16.1";
+            ((System.ComponentModel.ISupportInitialize)(this.richText3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}
